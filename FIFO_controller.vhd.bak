@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity FIFO_controller is
+port( reset:  IN
+      rdclk:  IN
+      wrclk:  IN
+      rreq:   IN
+      wreq:   IN
+      write_valid:  OUT
+      read_valid:   OUT
+      wr_ptr:       OUT
+      rd_ptr:       OUT
+      empty:        OUT
+      full:         OUT);
+end FIFO_controller;         

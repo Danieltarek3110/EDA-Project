@@ -17,11 +17,12 @@ BEGIN
 
     if RESET = '1' then
        Data_OUT <= "00000000";
+    elsif Clock_ENABLE = '0' then
+             null;
      elsif 
          rising_edge(CLK) AND Clock_ENABLE = '1' then
               Data_OUT <= Data_IN;
-      elsif Clock_ENABLE = '0' then
-             null;
+      
 end if;
 end process;
 end behav;

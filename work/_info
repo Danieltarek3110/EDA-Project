@@ -134,7 +134,7 @@ R28
 R11
 R12
 Erams
-Z29 w1608385986
+Z29 w1608463627
 Z30 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R15
 R14
@@ -145,15 +145,15 @@ Z31 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
 Z32 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
 l0
 L6
-VTzCQWjP0mkM01SZ0b^Kck3
-!s100 @eIN=P5ogjASRL^LOT=XH0
+VShldJ?3<IdCQC@O?m`lbm0
+!s100 f@WV94_Kg^l<oK4f8CZ0K1
 R6
 32
-R25
+Z33 !s110 1608463669
 !i10b 1
-R8
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
-Z34 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
+Z34 !s108 1608463669.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
+Z36 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
 !i113 1
 R11
 R12
@@ -163,39 +163,39 @@ R15
 R14
 R1
 R2
-DEx4 work 4 rams 0 22 TzCQWjP0mkM01SZ0b^Kck3
+DEx4 work 4 rams 0 22 ShldJ?3<IdCQC@O?m`lbm0
 l25
 L22
-V[H]@=E>[V`oGiO:`8iH]b2
-!s100 P1?dOc<knl9E`N[nJE]mJ2
+Z37 V[H]@=E>[V`oGiO:`8iH]b2
+Z38 !s100 P1?dOc<knl9E`N[nJE]mJ2
 R6
 32
-R25
-!i10b 1
-R8
 R33
+!i10b 1
 R34
+R35
+R36
 !i113 1
 R11
 R12
 Eserial_reg
-Z35 w1608383611
+Z39 w1608390477
 R1
 R2
 R3
-Z36 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
-Z37 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
+Z40 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
+Z41 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
 l0
 L4
 VQ?6h1ES?3AT5no_a@hQ]h1
 !s100 3EOndZ62g2mK8SMn5B;>L1
 R6
 32
-R7
+Z42 !s110 1608463499
 !i10b 1
-R8
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
-Z39 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
+Z43 !s108 1608463499.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
+Z45 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
 !i113 1
 R11
 R12
@@ -205,15 +205,15 @@ R2
 DEx4 work 10 serial_reg 0 22 Q?6h1ES?3AT5no_a@hQ]h1
 l14
 L13
-VLUezmEMDa2A=ko=k4fMoh2
-!s100 :Gl7NJaHC6B3dh=X@jQFT1
+V[g4jG6kBE^K_e?YTa2[Rm0
+!s100 O9ei;0ldOCEQZlcgWO8BL2
 R6
 32
-R7
+R42
 !i10b 1
-R8
-R38
-R39
+R43
+R44
+R45
 !i113 1
 R11
 R12

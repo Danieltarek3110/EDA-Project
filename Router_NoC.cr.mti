@@ -1,1 +1,48 @@
+{E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Serial_Reg
+-- Compiling architecture behav of Serial_Reg
 
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gray_counter
+-- Compiling architecture behav of gray_counter
+
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gray2binary
+-- Compiling architecture Behavioral of gray2binary
+
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity demultiplexer_case
+-- Compiling architecture demultiplexer_case_arc of demultiplexer_case
+
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity rams
+-- Compiling architecture syn of rams
+
+} {} {}}

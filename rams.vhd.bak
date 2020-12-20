@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.std_logic_unsigned.all;
+use ieee.numeric_std.all;
 
 entity rams is
 generic ( g_adress_width: integer:= 18;
