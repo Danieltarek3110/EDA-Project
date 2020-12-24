@@ -82,12 +82,12 @@ signal dataos: data_io := (dataos1,dataos2,dataos3,dataos4);
  
 signal wr: packettype;
 signal datai: data_io;
-FOR ALL: DeMux USE ENTITY WORK.demultiplexer_case(demultiplexer_case_arc);
-FOR ALL: IOBuffer USE ENTITY WORK.Module1 (behav1);
+FOR ALL: DeMux USE ENTITY WORK.demultiplexer_case(Behavv2);
+FOR ALL: IOBuffer USE ENTITY WORK.Serial_Reg(behav1);
 
 FOR ALL: fifo_8 USE ENTITY WORK.fifo (behavioral);
 
-FOR ALL: scheduler USE ENTITY WORK.M_ROU_08 (ARCH_M_ROU_08);
+FOR ALL: scheduler USE ENTITY WORK.Round_Robin_Scheduler (ARCH_M_ROU_08);
 FOR ALL: decider USE ENTITY WORK.decider (behaveofdecider);
 
 BEGIN

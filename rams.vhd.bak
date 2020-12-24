@@ -10,14 +10,14 @@ generic ( g_adress_width: integer:= 18;
  port(
     clka : in std_logic;
     clkb : in std_logic;
-    wea : in std_logic;
-    web : in std_logic;
-    addra : in std_logic_vector(g_adress_width-1 downto 0);
-    addrb : in std_logic_vector(g_adress_width-1 downto 0);
-    dia : in std_logic_vector(15 downto 0);
-    dib : in std_logic_vector(15 downto 0);
-    doa : out std_logic_vector(15 downto 0);
-    dob : out std_logic_vector(15 downto 0));
+    wea :  in std_logic;
+    web :  in std_logic;
+    addra :in std_logic_vector(g_adress_width-1 downto 0);
+    addrb :in std_logic_vector(g_adress_width-1 downto 0);
+    dia :  in std_logic_vector(15 downto 0);
+    dib :  in std_logic_vector(15 downto 0);
+    doa :  out std_logic_vector(15 downto 0);
+    dob :  out std_logic_vector(15 downto 0));
 end rams;
 architecture syn of rams is
     type ram_type is array (g_ram_size-1 downto 0) of std_logic_vector(15 downto 0);

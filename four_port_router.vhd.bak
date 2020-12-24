@@ -1,5 +1,6 @@
 Library ieee;
 USE ieee.std_logic_1164.ALL;
+
 ENTITY four_port_router is
 	port(	wclock, rclock, rst: IN std_logic;
 		datai1,datai2, datai3, datai4: IN std_logic_vector ( 7 DOWNTO 0);
@@ -81,7 +82,7 @@ signal dataos: data_io := (dataos1,dataos2,dataos3,dataos4);
  
 signal wr: packettype;
 signal datai: data_io;
-FOR ALL: DeMux USE ENTITY WORK.Modulee2 (Behavv2);
+FOR ALL: DeMux USE ENTITY WORK.demultiplexer_case(Behavv2);
 FOR ALL: IOBuffer USE ENTITY WORK.Module1 (behav1);
 
 FOR ALL: fifo_8 USE ENTITY WORK.fifo (behavioral);
