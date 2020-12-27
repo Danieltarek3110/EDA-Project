@@ -1,14 +1,13 @@
-
-LIBRARY ieee;
+ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
 ENTITY Round_Robin_Scheduler IS
-	port(clock: in std_logic;
-	     din1: in std_logic_vector(7 downto 0);
-	     din2: in std_logic_vector(7 downto 0);
-	     din3: in std_logic_vector(7 downto 0);
-	     din4: in std_logic_vector(7 downto 0);
-	     dout: out std_logic_vector(7 downto 0)
+	port(clock: in  std_logic;
+	     din1:  in  std_logic_vector(7 downto 0);
+	     din2:  in  std_logic_vector(7 downto 0);
+	     din3:  in  std_logic_vector(7 downto 0);
+	     din4:  in  std_logic_vector(7 downto 0);
+	     dout:  out std_logic_vector(7 downto 0)
 );
 END ENTITY Round_Robin_Scheduler;
 

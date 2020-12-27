@@ -15,7 +15,7 @@ END ENTITY rams;
 
 ARCHITECTURE ARCH_M_ROU_03 of rams is
 
-	type rm is array (0 to 5) of std_logic_vector (7 downto 0); -- array of 5 words 8 bits each  
+	type rm is array (0 to 5) of std_logic_vector (7 downto 0);   
 	shared variable word: rm; 
 
 	

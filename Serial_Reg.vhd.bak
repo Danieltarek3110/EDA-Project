@@ -1,30 +1,28 @@
-library ieee;
-use ieee.std_logic_1164.all;
- 
-entity Serial_Reg is
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
 
- port (Data_IN : in std_logic_vector(7 downto 0); 
-       Data_OUT : out std_logic_vector(7 downto 0); 
-       Clock_ENABLE : in std_logic; 
-       CLK,RESET : in std_logic); 
- 
-end Serial_Reg;
+entity Serial_Reg is 
+port (
+      Datat_in : in std_logic_vector(7 downto 0);
+      Data_out : out std_logic_vector(7 downto 0);
+      clk : in std_logic;
+      Clock_En : in std_logic ;
+      Reset : in std_logic
+      );
+end entity Serial_Reg ;
 
-Architecture behav of Serial_Reg is
-BEGIN
-process (CLK,RESET)
-BEGIN
-
-    if RESET = '1' then
-       Data_OUT <= "00000000";
-    elsif Clock_ENABLE = '0' then
-             null;
-     elsif 
-         rising_edge(CLK) AND Clock_ENABLE = '1' then
-              Data_OUT <= Data_IN;
-      
+architecture Behav1 of Serial_Reg is 
+begin
+process(clk,Reset)
+begin
+IF rising_edge(clk) and Clock_En = '1' and  Reset = '0' then
+Data_out <= Datat_in ;
+end if;
+IF reset = '1' then 
+Data_out <= "00000000";
+end if;
+IF Clock_En = '0' then
+NULL ;
 end if;
 end process;
-end behav;
-
-
+end architecture Behav1 ;

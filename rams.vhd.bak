@@ -1,44 +1,40 @@
-library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.std_logic_unsigned.all;
-use ieee.numeric_std.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
 
-entity rams is
-generic ( g_adress_width: integer:= 18;
-          g_ram_size: integer:= 1000
-        );
- port(
-    clka : in std_logic;
-    clkb : in std_logic;
-    wea :  in std_logic;
-    web :  in std_logic;
-    addra :in std_logic_vector(g_adress_width-1 downto 0);
-    addrb :in std_logic_vector(g_adress_width-1 downto 0);
-    dia :  in std_logic_vector(15 downto 0);
-    dib :  in std_logic_vector(15 downto 0);
-    doa :  out std_logic_vector(15 downto 0);
-    dob :  out std_logic_vector(15 downto 0));
-end rams;
-architecture syn of rams is
-    type ram_type is array (g_ram_size-1 downto 0) of std_logic_vector(15 downto 0);
-     signal RAM : ram_type;
-   begin
- process (CLKA)
- begin
-    if CLKA'event and CLKA = '1' then
-            DOA <= RAM(to_integer(unsigned(ADDRA)));
-            if WEA = '1' then --always 0
-                    RAM(to_integer(unsigned(ADDRA))) <= DIA; --does not happen
-        end if;
+ENTITY rams IS
+	port(d_in: in std_logic_vector(7 downto 0);
+	     d_out: out std_logic_vector(7 downto 0);
+	     WEA: in std_logic;
+	     REA: in std_logic;
+	     ADDRA: in std_logic_vector(2 downto 0);
+ 	     ADDRB: in std_logic_vector(2 downto 0);
+	     CLKA: in std_logic;
+	     CLKB: in std_logic);
+END ENTITY rams;
 
-    end if;
+ARCHITECTURE ARCH_M_ROU_03 of rams is
 
-    if CLKA'event and CLKA = '1' then
-        DOB <= RAM(to_integer(unsigned(ADDRB)));
-        if WEB = '1' then
-            RAM(to_integer(unsigned(ADDRB))) <= DIB;
-    end if;
- end if;
+	type rm is array (0 to 5) of std_logic_vector (7 downto 0); -- array of 5 words 8 bits each  
+	shared variable word: rm; 
 
- end process;
-end syn; 
+	
+begin
+	P1: process(CLKA)
+	begin
+		if( CLKA' event and CLKA='1' and WEA='1') then 
+				word(conv_integer(ADDRA)):= d_in; --write
+		end if;
+	end process  P1;
+
+	P2: process(CLKB)
+	begin
+		if(CLKB' event and CLKB='1' and REA='1') then 
+				d_out <= word(conv_integer(ADDRB)); -- read
+		elsif(REA ='0') then
+			d_out<="ZZZZZZZZ"; -- Shhh! the ram is sleeping
+		end if;
+
+	end process  P2;
+
+END ARCHITECTURE ARCH_M_ROU_03;
