@@ -6,14 +6,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity Serial_Reg
 -- Compiling architecture Behav1 of Serial_Reg
 
-} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity demultiplexer_case
--- Compiling architecture Behavv2 of demultiplexer_case
-
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -22,12 +14,20 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity FIFO_controller
 -- Compiling architecture fifo of FIFO_controller
-** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd(29): (vcom-1236) Shared variables must be of a protected type.
-
-** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd(30): (vcom-1236) Shared variables must be of a protected type.
+** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd(31): (vcom-1236) Shared variables must be of a protected type.
 
 ** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd(32): (vcom-1236) Shared variables must be of a protected type.
 
+** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd(34): (vcom-1236) Shared variables must be of a protected type.
+
+
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity demultiplexer_case
+-- Compiling architecture Behavv2 of demultiplexer_case
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -61,6 +61,10 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity FIFO
 -- Compiling architecture behavioral of FIFO
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity rams
+-- Loading entity FIFO_controller
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -69,16 +73,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity Register_Test
 -- Compiling architecture test of Register_Test
-
-} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Router_Test
--- Compiling architecture behave of Router_Test
--- Loading entity four_port_router
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -102,25 +96,33 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 ** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd(85): (vcom-1013) Initial value of "dataos" depends on value of signal "dataos4".
 
 
-} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd}
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity gray_counter
--- Compiling architecture behav of gray_counter
+-- Loading package NUMERIC_STD
+-- Compiling entity Router_Test
+-- Compiling architecture behave of Router_Test
+-- Loading entity four_port_router
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
 -- Compiling entity gray2binary
--- Compiling architecture Behavioral of gray2binary
+-- Compiling architecture C3 of gray2binary
+
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity gray_counter
+-- Compiling architecture GC3 of gray_counter
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015

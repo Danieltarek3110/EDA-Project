@@ -21,9 +21,9 @@ VF=knSFk?]eF_>ZJ^4RbDR0
 !s100 `Q25[X>P^7hgkHfBZSM>I0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1609077549
+Z7 !s110 1609327950
 !i10b 1
-Z8 !s108 1609077549.000000
+Z8 !s108 1609327950.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Decider.vhd|
 Z10 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Decider.vhd|
 !i113 1
@@ -60,9 +60,9 @@ VMSS:X@E^E:NlFB8k34E>X2
 !s100 R3L@G5eHe3PNkkg6KW3o?3
 R6
 32
-Z17 !s110 1609077547
+Z17 !s110 1609327948
 !i10b 1
-Z18 !s108 1609077547.000000
+Z18 !s108 1609327948.000000
 Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd|
 Z20 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/demultiplexer_case.vhd|
 !i113 1
@@ -118,9 +118,9 @@ V1B9AYe=>@S5lY60O?=;@00
 !s100 cGf_CK5XM]nMCVKj[C==j3
 R6
 32
-Z25 !s110 1609078200
+Z25 !s110 1609327951
 !i10b 1
-Z26 !s108 1609078200.000000
+Z26 !s108 1609327951.000000
 Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/DeMux_Test.vhd|
 Z28 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/DeMux_Test.vhd|
 !i113 1
@@ -129,11 +129,11 @@ R12
 Atest2
 R1
 R2
-DEx4 work 10 demux_test 0 22 1B9AYe=>@S5lY60O?=;@00
+Z29 DEx4 work 10 demux_test 0 22 1B9AYe=>@S5lY60O?=;@00
 l32
 L8
-VB6HQ=zcXP7P<>Eoln423Z2
-!s100 Hi9QB32e1l635>K[JnK551
+Z30 VB6HQ=zcXP7P<>Eoln423Z2
+Z31 !s100 Hi9QB32e1l635>K[JnK551
 R6
 32
 R25
@@ -145,94 +145,98 @@ R28
 R11
 R12
 Efifo
-Z29 w1608816384
-Z30 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z32 w1609327177
+Z33 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z31 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd
-Z32 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd
+Z34 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd
+Z35 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd
 l0
 L9
-V]5H2k=7;:K7ib9CAU<Tc=3
-!s100 >][A:J2>bDQ7;;WVDFm9:0
+VjEAFQFQ0HZTT_9l>U=jfA0
+!s100 4z@I[KRNSn3@oMG9`G7zQ0
 R6
 32
-R7
+Z36 !s110 1609327949
 !i10b 1
-R8
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd|
-Z34 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd|
+Z37 !s108 1609327949.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd|
+Z39 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO.vhd|
 !i113 1
 R11
 R12
 Abehavioral
-R30
+Z40 DEx4 work 15 fifo_controller 0 22 ZgF6=[eieoZYiRl5955^V1
+Z41 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z42 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z43 DEx4 work 4 rams 0 22 N4TE`lE[1:TjdP6g52ad53
+R33
 R1
 R2
-Z35 DEx4 work 4 fifo 0 22 ]5H2k=7;:K7ib9CAU<Tc=3
-l37
+Z44 DEx4 work 4 fifo 0 22 jEAFQFQ0HZTT_9l>U=jfA0
+l40
 L16
-V[c4J2WK3Oei>RKn97o]`C0
-!s100 H;Z0hXISJYA6FQiTYbXJJ0
+V20K9D7kid3QZZ]^dWWa^50
+!s100 g26kYKLdNKgU=nO01O>no3
 R6
 32
 R7
 !i10b 1
-R8
-R33
-R34
+R37
+R38
+R39
 !i113 1
 R11
 R12
 Efifo_controller
-Z36 w1609077524
-R30
+Z45 w1609327859
+R33
 R1
 R2
 R3
-Z37 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd
-Z38 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd
+Z46 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd
+Z47 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd
 l0
 L7
 VZgF6=[eieoZYiRl5955^V1
 !s100 B3CB6Vd[CW_=EY4IZET]_2
 R6
 32
-Z39 !s110 1609077548
+R36
 !i10b 1
-Z40 !s108 1609077548.000000
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd|
-Z42 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd|
+R37
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd|
+Z49 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/FIFO_controller.vhd|
 !i113 1
 R11
 R12
 Afifo
-R30
+R33
 R1
 R2
-DEx4 work 15 fifo_controller 0 22 ZgF6=[eieoZYiRl5955^V1
-l34
+R40
+l36
 L14
-VNaBb`SXITm_KE`lFUQReI0
-!s100 HeUaC<K8h<9kz[5[8Vk?U0
+VdzET[zl29J:oJ3V4okN[i2
+!s100 O7Uc^DXNRS0l7O>IiS<Tc0
 R6
 32
-R39
+R36
 !i10b 1
-R40
-R41
-R42
+R37
+R48
+R49
 !i113 1
 R11
 R12
 Efour_port_router
-Z43 w1609002015
+Z50 w1609327941
 R1
 R2
 R3
-Z44 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd
-Z45 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd
+Z51 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd
+Z52 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd
 l0
 L4
 V9G7I7zT]V:0Sn6Lc6;A1X2
@@ -242,61 +246,79 @@ R6
 R7
 !i10b 1
 R8
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd|
-Z47 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd|
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd|
+Z54 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd|
 !i113 1
 R11
 R12
 Arouter
 R13
-Z48 DEx4 work 21 round_robin_scheduler 0 22 6Vda6EKW9?WBS90B1Mb[X2
-R30
-R35
-Z49 DEx4 work 10 serial_reg 0 22 V]?QR9ZJcQ7kfBKQZIiKM0
+Z55 DEx4 work 21 round_robin_scheduler 0 22 6Vda6EKW9?WBS90B1Mb[X2
+R33
+R44
+Z56 DEx4 work 10 serial_reg 0 22 V]?QR9ZJcQ7kfBKQZIiKM0
 R21
 R1
 R2
-Z50 DEx4 work 16 four_port_router 0 22 9G7I7zT]V:0Sn6Lc6;A1X2
+Z57 DEx4 work 16 four_port_router 0 22 9G7I7zT]V:0Sn6Lc6;A1X2
 l97
 L13
-VbA5BPle1d4A@0@ckEQS6k3
-!s100 ^jH`C;e?9of=kedzICR=J0
+VLQnK8jgb81Ch3jBl8Co7@3
+!s100 XDl3IcGdnhc23U9SL]i9O3
 R6
 32
 R7
 !i10b 1
 R8
-R46
-R47
+R53
+R54
 !i113 1
 R11
 R12
 Egray2binary
-Z51 w1608387895
-Z52 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z53 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z58 w1609327830
+R33
 R1
 R2
 R3
-Z54 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd
-Z55 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd
+Z59 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd
+Z60 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd
 l0
 L5
-V50EaO[T=]1kT[4CYDl;^;1
-!s100 KjRl]hKjD76gHa@e6hT:K3
+VMkQ1olNL=V;_B>^fo5i8d0
+!s100 oQLb[2BXK0J0=oTfad:>X2
 R6
 32
-R39
+R36
 !i10b 1
-R40
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd|
-Z57 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd|
+R37
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd|
+Z62 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd|
+!i113 1
+R11
+R12
+Ac3
+R33
+R1
+R2
+DEx4 work 11 gray2binary 0 22 MkQ1olNL=V;_B>^fo5i8d0
+l11
+L10
+VMk6^>J[A3aGfJDH9mjH_k0
+!s100 >XgC4P8eJjRQ@00FT[>[J0
+R6
+32
+R36
+!i10b 1
+R37
+R61
+R62
 !i113 1
 R11
 R12
 Abehavioral
-R52
-R53
+R42
+R41
 R1
 R2
 DEx4 work 11 gray2binary 0 22 50EaO[T=]1kT[4CYDl;^;1
@@ -306,40 +328,59 @@ V1LTggW`[hh3Y>f=MSQ<eh0
 !s100 2Ec604dC:_4<06n>Wf7OD2
 R6
 32
-R39
+!s110 1609327734
 !i10b 1
-R40
-R56
-R57
+!s108 1609327734.000000
+R61
+R62
 !i113 1
 R11
 R12
+w1608387895
 Egray_counter
-Z58 w1608387628
-R52
-R53
+Z63 w1609327657
+R33
 R1
 R2
 R3
-Z59 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd
-Z60 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd
+Z64 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd
+Z65 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd
 l0
-L6
-VdZ:T]KF?^G_kHHR17KH092
-!s100 mj^HceooWl5UT<mP7S<hJ0
+L5
+V9ZhQWmG1IC;]HWhK_VmEz3
+!s100 ^TUbWL_`HUhUzTTFRTTPW3
 R6
 32
-R39
+R36
 !i10b 1
-R40
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd|
-Z62 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd|
+R18
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd|
+Z67 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd|
+!i113 1
+R11
+R12
+Agc3
+R33
+R1
+R2
+DEx4 work 12 gray_counter 0 22 9ZhQWmG1IC;]HWhK_VmEz3
+l12
+L10
+VGn_[P]3NYb7;PhIzQ5<V90
+!s100 NzQ[mS^S=bbGTe[3MELn43
+R6
+32
+R36
+!i10b 1
+R18
+R66
+R67
 !i113 1
 R11
 R12
 Abehav
-R52
-R53
+R42
+R41
 R1
 R2
 DEx4 work 12 gray_counter 0 22 dZ:T]KF?^G_kHHR17KH092
@@ -349,61 +390,62 @@ VgiPB]Xd^5^j6[?1NX7g172
 !s100 c;hl?O6m6Tn86688HOmIX1
 R6
 32
-R39
+!s110 1609327181
 !i10b 1
-R40
-R61
-R62
+!s108 1609327181.000000
+R66
+R67
 !i113 1
 R11
 R12
+w1608387628
 Erams
-Z63 w1608900435
-R53
-R52
+Z68 w1608900435
+R41
+R42
 R1
 R2
 R3
-Z64 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
-Z65 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
+Z69 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
+Z70 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd
 l0
 L5
 VN4TE`lE[1:TjdP6g52ad53
 !s100 4BoA;<m=0ZAJ?nT`^<PJh0
 R6
 32
-R39
+R17
 !i10b 1
-R40
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
-Z67 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
+R18
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
+Z72 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd|
 !i113 1
 R11
 R12
 Aarch_m_rou_03
-R53
-R52
+R41
+R42
 R1
 R2
-DEx4 work 4 rams 0 22 N4TE`lE[1:TjdP6g52ad53
+R43
 l22
 L16
 Vm8TL_KPCB]NCbHVFJ`2:K3
 !s100 knI3GmKcUUY31D>6ik9dG3
 R6
 32
-R39
+R17
 !i10b 1
-R40
-R66
-R67
+R18
+R71
+R72
 !i113 1
 R11
 R12
 Asyn
-R30
-R53
-R52
+R33
+R41
+R42
 R1
 R2
 DEx4 work 4 rams 0 22 ShldJ?3<IdCQC@O?m`lbm0
@@ -416,30 +458,30 @@ R6
 !s110 1608463669
 !i10b 1
 !s108 1608463669.000000
-R66
-R67
+R71
+R72
 !i113 1
 R11
 R12
 w1608463627
 Eregister_test
-Z68 w1609077857
+Z73 w1609077857
 R1
 R2
 R3
-Z69 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd
-Z70 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd
+Z74 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd
+Z75 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd
 l0
 L4
 VXn@7=IZh:8ZmbV_f=dn;Z2
 !s100 5G6ojiQ>L>kM<jJEmmEa;1
 R6
 32
-Z71 !s110 1609077861
+R25
 !i10b 1
-Z72 !s108 1609077861.000000
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd|
-Z74 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd|
+R26
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd|
+Z77 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Register_Test.vhd|
 !i113 1
 R11
 R12
@@ -453,21 +495,21 @@ VV_G7nBSBZl=o0G=@@hadB2
 !s100 FQHANM^^oile0ezWK=TCF3
 R6
 32
-R71
+R25
 !i10b 1
-R72
-R73
-R74
+R26
+R76
+R77
 !i113 1
 R11
 R12
 Eround_robin_scheduler
-Z75 w1609077525
+Z78 w1609077525
 R1
 R2
 R3
-Z76 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd
-Z77 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd
+Z79 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd
+Z80 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd
 l0
 L4
 V6Vda6EKW9?WBS90B1Mb[X2
@@ -477,15 +519,15 @@ R6
 R7
 !i10b 1
 R8
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd|
-Z79 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd|
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd|
+Z82 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Round_Robin_Scheduler.vhd|
 !i113 1
 R11
 R12
 Abehav
 R1
 R2
-R48
+R55
 l19
 L14
 VhQ2lQ7Q`aSFjK3QWez>6?0
@@ -495,60 +537,60 @@ R6
 R7
 !i10b 1
 R8
-R78
-R79
+R81
+R82
 !i113 1
 R11
 R12
 Erouter_test
-Z80 w1609078308
-R30
+Z83 w1609325967
+R33
 R1
 R2
 R3
-Z81 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd
-Z82 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd
+Z84 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd
+Z85 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd
 l0
-L5
-Vm?^HBHH_WP;cGo_QRo`z@1
-!s100 MLo>38oWG9ffS;5d2K[A;2
+L6
+V1=C8m0ak28TLKf`^_jTXG1
+!s100 la:THRAAk0LQhhdmC7Hz00
 R6
 32
-Z83 !s110 1609078385
+R7
 !i10b 1
-Z84 !s108 1609078385.000000
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd|
-Z86 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd|
+R8
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd|
+Z87 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Router_Test.vhd|
 !i113 1
 R11
 R12
 Abehave
-R50
-R30
+R57
+R33
 R1
 R2
-DEx4 work 11 router_test 0 22 m?^HBHH_WP;cGo_QRo`z@1
-l25
-L8
-VdTS6@J>LfdKY8Kz[M5J=<3
-!s100 egW=c@z;][V?o52QM4PbD2
+DEx4 work 11 router_test 0 22 1=C8m0ak28TLKf`^_jTXG1
+l26
+L9
+V<;RGc[D5j4=lhKIO0Rjbz3
+!s100 nHfojQY@84j8?HNTeP82c3
 R6
 32
-R83
+R7
 !i10b 1
-R84
-R85
+R8
 R86
+R87
 !i113 1
 R11
 R12
 Eserial_reg
-Z87 w1609002016
+Z88 w1609002016
 R1
 R2
 R3
-Z88 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
-Z89 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
+Z89 8E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
+Z90 FE:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd
 l0
 L4
 VV]?QR9ZJcQ7kfBKQZIiKM0
@@ -558,15 +600,15 @@ R6
 R17
 !i10b 1
 R18
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
-Z91 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
+Z92 !s107 E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Serial_Reg.vhd|
 !i113 1
 R11
 R12
 Abehav1
 R1
 R2
-R49
+R56
 l15
 L14
 V]<U7eiaWKF4LbRSojiliY0
@@ -576,8 +618,8 @@ R6
 R17
 !i10b 1
 R18
-R90
 R91
+R92
 !i113 1
 R11
 R12
@@ -594,8 +636,8 @@ R6
 !s110 1608463499
 !i10b 1
 !s108 1608463499.000000
-R90
 R91
+R92
 !i113 1
 R11
 R12

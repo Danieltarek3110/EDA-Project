@@ -91,7 +91,7 @@ FOR ALL: IOBuffer USE ENTITY WORK.Serial_Reg(behav1);
 
 FOR ALL: fifo_8 USE ENTITY WORK.fifo (behavioral);
 
-FOR ALL: scheduler USE ENTITY WORK.Round_Robin_Scheduler (ARCH_M_ROU_08);
+FOR ALL: scheduler USE ENTITY WORK.Round_Robin_Scheduler (behav);
 FOR ALL: decider USE ENTITY WORK.decider (behaveofdecider);
 
 BEGIN

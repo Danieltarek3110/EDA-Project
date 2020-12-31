@@ -66,8 +66,13 @@ type array4x8 is array(1 to 4) of data8bit;
 type array4x1 is array(1 to 4) of flag1bit;
 
 signal deciderFlag: array4x1;
-signal DeMuxToFIFO1,DeMuxToFIFO2,DeMuxToFIFO3,DeMuxToFIFO4,FIFOtoSch1,FIFOtoSch2,FIFOtoSch3,FIFOtoSch4,output: array4x8;
-signal EmptyFifo1,EmptyFifo2,EmptyFifo3,EmptyFifo4,FullFifo1,FullFifo2,FullFifo3,FullFifo4,fifo_wreq1,fifo_wreq2,fifo_wreq3,fifo_wreq4: array4x1;
+
+signal DeMuxToFIFO1,DeMuxToFIFO2,DeMuxToFIFO3,DeMuxToFIFO4,
+       FIFOtoSch1,FIFOtoSch2,FIFOtoSch3,FIFOtoSch4,output: array4x8;
+
+signal EmptyFifo1,EmptyFifo2,EmptyFifo3,EmptyFifo4,FullFifo1,FullFifo2,FullFifo3,FullFifo4,
+       fifo_wreq1,fifo_wreq2,fifo_wreq3,fifo_wreq4: array4x1;
+
 signal IBtoDeMux:array4x8;
 
 
@@ -76,7 +81,7 @@ type data_io is array (1 to 4) of std_logic_vector(7 downto 0);
 type packettype is array (1 to 4) of std_logic;
 type flagType is array (1 to 4) of std_logic;
 signal dataos1,dataos2,dataos3,dataos4: std_logic_Vector(7 downto 0 );
-
+  
 signal dataos: data_io := (dataos1,dataos2,dataos3,dataos4);
  
 signal wr: packettype;

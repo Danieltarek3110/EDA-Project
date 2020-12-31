@@ -13,17 +13,19 @@ END ENTITY FIFO_controller;
 
 ARCHITECTURE fifo OF FIFO_controller IS
 
-component Gray3
+component gray_counter
    PORT ( clock, Reset, En : IN STD_LOGIC;
 	  Count_out : OUT STD_LOGIC_VECTOR (2 downto 0));
 end component;
 
-component Converter3
+component gray2binary
 PORT( gray_in : IN STD_LOGIC_VECTOR(2 downto 0);
       bin_out : OUT STD_LOGIC_VECTOR(2 downto 0));
 end component;
 
 --signal wr_en,rd_en: std_logic;
+
+
 
 signal wr_counter_out,rd_counter_out,wr_converter_out,rd_converter_out: std_logic_vector(2 downto 0);
 shared variable written_status : std_logic_vector(7 downto 0):= "00000000";
@@ -34,14 +36,14 @@ shared variable prev_wr_converter_out,prev_rd_converter_out :std_logic_vector(2 
 BEGIN
 
 
-wr_counter: Gray3 port map 
+wr_counter: gray_counter port map 
       ( clock => wrclk,Reset=>reset ,En=>wr_en,Count_out=>wr_counter_out);
-wr_converter: Converter3 port map 
+wr_converter: gray2binary port map 
       ( gray_in => wr_counter_out,bin_out=>wr_converter_out );
 
-rd_counter: Gray3 port map 
+rd_counter: gray_counter port map 
       ( clock => wrclk,Reset=>reset ,En=>rd_en,Count_out=>rd_counter_out);
-rd_converter: Converter3 port map 
+rd_converter: gray2binary port map 
       ( gray_in => rd_counter_out,bin_out=>rd_converter_out );
 
  PROCESS (reset,wr_converter_out,rd_converter_out,r_req,w_req,wrclk)

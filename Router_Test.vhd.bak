@@ -1,7 +1,7 @@
 Library ieee;
 USE ieee.std_logic_1164.ALL;
-
 USE ieee.numeric_std.ALL;
+USE work.all
 
 ENTITY Router_Test IS
 END ENTITY Router_Test;
@@ -14,9 +14,9 @@ ARCHITECTURE behave of Router_Test IS
 
 COMPONENT Router IS
 
-	port(	wclock, rclock, rst: IN std_logic;
+	port(	wclock, rclock, rst:           IN std_logic;
 		datai1,datai2, datai3, datai4: IN std_logic_vector ( 7 DOWNTO 0);
-		wr1, wr2, wr3, wr4: IN std_logic;
+		wr1, wr2, wr3, wr4:            IN std_logic;
 		datao1,datao2, datao3, datao4: OUT std_logic_vector ( 7 DOWNTO 0));
 
 END COMPONENT Router;
@@ -51,9 +51,10 @@ datai2 <= "11111101","ZZZZZZZZ" AFTER 100 ns;
 datai3 <= "11111110","ZZZZZZZZ" AFTER 100 ns; 
 datai4 <= "11111111","ZZZZZZZZ" AFTER 100 ns;
   wr1 <= '1','0' AFTER 100 ns; 
-wr2 <= '1','0' AFTER 100 ns; 
- wr3 <= '1','0' AFTER 100 ns; 
+  wr2 <= '1','0' AFTER 100 ns; 
+  wr3 <= '1','0' AFTER 100 ns; 
   wr4 <= '1','0' AFTER 100 ns; 
+
 WAIT FOR 250 ns;
 ASSERT datao1 = "11111100" REPORT  "error: testcase01"SEVERITY warning;
 WAIT FOR 100 ns;
@@ -109,9 +110,10 @@ datai2 <= "11001110","ZZZZZZZZ" AFTER 100 ns;
 datai3 <= "11001111","ZZZZZZZZ" AFTER 100 ns; 
 datai4 <= "11001100","ZZZZZZZZ" AFTER 100 ns;
 	wr1 <= '1','0' AFTER 100 ns; 
-wr2 <= '1','0' AFTER 100 ns; 
-wr3 <= '1','0' AFTER 100 ns; 
-wr4 <= '1','0' AFTER 100 ns;
+        wr2 <= '1','0' AFTER 100 ns; 
+        wr3 <= '1','0' AFTER 100 ns; 
+        wr4 <= '1','0' AFTER 100 ns;
+
 WAIT FOR 250 ns;  
 ASSERT datao1 = "11001100" REPORT  "error: testcase13"SEVERITY warning;  
 WAIT FOR 100 ns; 
@@ -126,8 +128,7 @@ WAIT FOR 100 ns;
 
 
 wait;
+
 END PROCESS test_strategy;
-
-
 
 END behave;
