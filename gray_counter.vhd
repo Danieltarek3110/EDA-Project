@@ -12,8 +12,8 @@ SIGNAL si : STD_LOGIC_VECTOR(2 downto 0):="001";
 BEGIN
 	p1 : PROCESS(clock) IS BEGIN
 	  IF clock = '1' AND clock'event THEN
-	  IF Reset = '1' THEN si <= "001";
-	  ELSIF En = '1' THEN
+	      IF Reset = '1' THEN si <= "001";
+	      ELSIF En = '1' THEN
 		CASE si IS
 		WHEN "000" => si <= "001";
 		WHEN "001" => si <= "011";

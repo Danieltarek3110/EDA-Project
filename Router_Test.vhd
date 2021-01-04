@@ -25,7 +25,9 @@ FOR fourportRouter: Router USE ENTITY WORK.four_port_router(ROUTER);
 
 BEGIN
 
-fourportRouter : Router PORT MAP (wclock, rclock, rst,datai1,datai2, datai3, datai4,wr1, wr2, wr3, wr4,datao1,datao2, datao3, datao4);
+fourportRouter : Router PORT MAP (wclock, rclock, rst,datai1,datai2,
+                                  datai3, datai4,wr1, wr2, wr3, wr4,datao1,
+                                  datao2, datao3, datao4);
 writeClock: PROCESS IS
 BEGIN
 wclock <= '0','1' AFTER 50 ns;
@@ -123,10 +125,6 @@ ASSERT datao3 = "11001110" REPORT  "error: testcase15"SEVERITY warning;
 WAIT FOR 100 ns;
 ASSERT datao4 = "11001111" REPORT  "error: testcase16"SEVERITY warning;  
 WAIT FOR 100 ns;
-
-
-
-
 wait;
 
 END PROCESS test_strategy;

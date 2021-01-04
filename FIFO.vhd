@@ -4,8 +4,6 @@ USE ieee.numeric_std.ALL;
 library work;
 
 
-
-
 ENTITY FIFO IS
 PORT(   reset, rclk,wclk,rreq,wreq: IN std_logic;
 	datain:                     IN std_logic_vector(7 downto 0);

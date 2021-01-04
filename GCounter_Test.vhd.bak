@@ -1,0 +1,81 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY GCounter_Test IS
+END ENTITY GCounter_Test;
+
+architecture test of GCounter_Test is
+
+component Module1 is
+port (  clock, Reset, En : IN STD_LOGIC;
+	Count_out : OUT STD_LOGIC_VECTOR (2 downto 0));
+end component Module1 ;
+
+
+SIGNAL T_clock:      STD_LOGIC;
+SIGNAL T_Reset:      STD_LOGIC;
+SIGNAL T_En :        STD_LOGIC;
+SIGNAL T_Count_out:  STD_LOGIC_VECTOR (2 downto 0) ;
+constant delay_time: time := 20 ns;
+
+
+BEGIN
+ dut: Module1 PORT MAP(T_clock,T_Reset,T_En,T_Count_out);
+
+clock: PROCESS IS
+BEGIN
+    T_clock <= '0', '1' AFTER 10 ns;
+    WAIT FOR 20 ns;
+END PROCESS clock;
+
+p1:process is 
+BEGIN
+
+T_Reset <= '1' ;
+T_En <= '1' ;
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+
+wait for delay_time;
+
+T_Reset <= '0' ;
+T_En <= '1' ;
+
+
+		
+wait for delay_time;
+
+T_Reset <= '1' ;
+T_En <= '0' ;
+
+
+
+END PROCESS p1;
+End architecture test;

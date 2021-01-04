@@ -1,7 +1,7 @@
 Library ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
-USE work.all
+USE work.all;
 
 ENTITY Router_Test IS
 END ENTITY Router_Test;

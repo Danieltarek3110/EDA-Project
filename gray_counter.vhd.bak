@@ -1,29 +1,32 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
 
-entity gray_counter is
-port(clk: in std_logic;
-     rst: in std_logic;
-     en:  in std_logic;
-     gray_code: out std_logic_vector (3 downto 0));
+ENTITY gray_counter IS
+PORT ( clock, Reset, En : IN STD_LOGIC;
+	Count_out : OUT STD_LOGIC_VECTOR (2 downto 0));
+END ENTITY gray_counter;
 
-end gray_counter;
+ARCHITECTURE GC3 OF gray_counter IS
+SIGNAL si : STD_LOGIC_VECTOR(2 downto 0):="001";
+BEGIN
+	p1 : PROCESS(clock) IS BEGIN
+	  IF clock = '1' AND clock'event THEN
+	  IF Reset = '1' THEN si <= "001";
+	  ELSIF En = '1' THEN
+		CASE si IS
+		WHEN "000" => si <= "001";
+		WHEN "001" => si <= "011";
+		WHEN "011" => si <= "010";
+		WHEN "010" => si <= "110";
+		WHEN "110" => si <= "111";
+		WHEN "111" => si <= "101";
+		WHEN "101" => si <= "100";
+		WHEN OTHERS => si <= "000";
+		END CASE;
+	   END IF;
+	END IF;
+      END PROCESS p1;
+  Count_out <= si;
 
-architecture behav of gray_counter is
-signal count : std_logic_vector(3 downto 0) := "0000";
-
-begin
- process(clk)
- begin
-
-  if (rst='1') then
-   count <= "0000";
-  elsif (rising_edge(clk) AND en = '1') then
-   count <= count + "0001";
-  end if;
- end process;
-    gray_code <= count xor ('0' & count(3 downto 1));
-
-end behav;
+END ARCHITECTURE GC3;

@@ -18,7 +18,7 @@ component gray_counter
 	  Count_out : OUT STD_LOGIC_VECTOR (2 downto 0));
 end component;
 
-component Converter3
+component gray2binary
 PORT( gray_in : IN STD_LOGIC_VECTOR(2 downto 0);
       bin_out : OUT STD_LOGIC_VECTOR(2 downto 0));
 end component;
@@ -38,12 +38,12 @@ BEGIN
 
 wr_counter: gray_counter port map 
       ( clock => wrclk,Reset=>reset ,En=>wr_en,Count_out=>wr_counter_out);
-wr_converter: Converter3 port map 
+wr_converter: gray2binary port map 
       ( gray_in => wr_counter_out,bin_out=>wr_converter_out );
 
 rd_counter: gray_counter port map 
       ( clock => wrclk,Reset=>reset ,En=>rd_en,Count_out=>rd_counter_out);
-rd_converter: Converter3 port map 
+rd_converter: gray2binary port map 
       ( gray_in => rd_counter_out,bin_out=>rd_converter_out );
 
  PROCESS (reset,wr_converter_out,rd_converter_out,r_req,w_req,wrclk)

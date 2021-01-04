@@ -32,13 +32,15 @@ port(d_in:  in std_logic_vector(7 downto 0);
 end component;
 
 FOR ram1: ram USE ENTITY WORK.rams (ARCH_M_ROU_03);
+FOR controller1: controller5 USE ENTITY WORK.FIFO_controller (fifo);
+
 signal WEA,REA:  std_logic;
 signal ADDRA,ADDRB:  std_logic_vector(2 downto 0);
 
 BEGIN
 
 
-FIFO_controller: controller5 port map 
+controller1: controller5 port map 
       ( reset => reset,rdclk=>rclk ,wrclk=>wclk,r_req=>rreq,w_req=>wreq,write_valid=>WEA,read_valid=>REA,wr_ptr=>ADDRA,rd_ptr=>ADDRB,empty=>empty,full=>full);
 
 ram1: ram port map 

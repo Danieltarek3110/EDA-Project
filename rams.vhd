@@ -3,14 +3,14 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.std_logic_unsigned.ALL;
 
 ENTITY rams IS
-	port(d_in: in std_logic_vector(7 downto 0);
+	port(d_in:  in std_logic_vector(7 downto 0);
 	     d_out: out std_logic_vector(7 downto 0);
-	     WEA: in std_logic;
-	     REA: in std_logic;
+	     WEA:   in std_logic;
+	     REA:   in std_logic;
 	     ADDRA: in std_logic_vector(2 downto 0);
  	     ADDRB: in std_logic_vector(2 downto 0);
-	     CLKA: in std_logic;
-	     CLKB: in std_logic);
+	     CLKA:  in std_logic;
+	     CLKB:  in std_logic);
 END ENTITY rams;
 
 ARCHITECTURE ARCH_M_ROU_03 of rams is
@@ -23,7 +23,7 @@ begin
 	P1: process(CLKA)
 	begin
 		if( CLKA' event and CLKA='1' and WEA='1') then 
-				word(conv_integer(ADDRA)):= d_in; --write
+				word(conv_integer(ADDRA)):= d_in;
 		end if;
 	end process  P1;
 
@@ -32,7 +32,7 @@ begin
 		if(CLKB' event and CLKB='1' and REA='1') then 
 				d_out <= word(conv_integer(ADDRB)); -- read
 		elsif(REA ='0') then
-			d_out<="ZZZZZZZZ"; -- Shhh! the ram is sleeping
+			d_out<="ZZZZZZZZ"; 
 		end if;
 
 	end process  P2;

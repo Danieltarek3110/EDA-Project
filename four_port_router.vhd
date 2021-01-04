@@ -99,43 +99,41 @@ wr <= (wr1,wr2,wr3,wr4);
 
 datai <= (datai1,datai2,datai3,datai4);
 
---GEN_out: for I in 1 to 4 generate
 
-
-fifo_wreq1(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "00")-- and FullFifo1(1) ='0') 
+fifo_wreq1(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "00")
 else '0';
-fifo_wreq2(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "01")-- and FullFifo2(1) ='0') 
+fifo_wreq2(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "01")
 else '0';
-fifo_wreq3(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "10")-- and FullFifo3(1) ='0') 
+fifo_wreq3(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "10")
 else '0';
-fifo_wreq4(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "11")-- and FullFifo4(1) ='0') 
+fifo_wreq4(1) <='1' when (wr1= '1' and  IBtoDeMux(1)(1 downto 0) = "11")
 else '0';
 
-fifo_wreq1(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "00")-- and FullFifo1(2) ='0') 
+fifo_wreq1(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "00")
 else '0';
-fifo_wreq2(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "01")-- and FullFifo2(2) ='0') 
+fifo_wreq2(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "01")
 else '0';
-fifo_wreq3(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "10")-- and FullFifo3(2) ='0') 
+fifo_wreq3(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "10")
 else '0';
-fifo_wreq4(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "11")-- and FullFifo4(2) ='0') 
-else '0';
-
-fifo_wreq1(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "00")-- and FullFifo1(3) ='0') 
-else '0';
-fifo_wreq2(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "01")-- and FullFifo2(3) ='0') 
-else '0';
-fifo_wreq3(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "10")-- and FullFifo3(3) ='0') 
-else '0';
-fifo_wreq4(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "11")-- and FullFifo4(3) ='0') 
+fifo_wreq4(2) <='1' when (wr2= '1' and  IBtoDeMux(2)(1 downto 0) = "11")
 else '0';
 
-fifo_wreq1(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "00")-- and FullFifo1(4) ='0') 
+fifo_wreq1(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "00") 
 else '0';
-fifo_wreq2(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "01")-- and FullFifo2(4) ='0') 
+fifo_wreq2(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "01") 
 else '0';
-fifo_wreq3(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "10")-- and FullFifo3(4) ='0') 
+fifo_wreq3(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "10")
 else '0';
-fifo_wreq4(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "11")-- and FullFifo4(4) ='0') 
+fifo_wreq4(3) <='1' when (wr3= '1' and  IBtoDeMux(3)(1 downto 0) = "11") 
+else '0';
+
+fifo_wreq1(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "00") 
+else '0';
+fifo_wreq2(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "01") 
+else '0';
+fifo_wreq3(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "10") 
+else '0';
+fifo_wreq4(4) <='1' when (wr4= '1' and  IBtoDeMux(4)(1 downto 0) = "11")
 else '0';
 
  
