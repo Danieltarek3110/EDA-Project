@@ -114,14 +114,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 ** Warning: E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/four_port_router.vhd(85): (vcom-1013) Initial value of "dataos" depends on value of signal "dataos4".
 
 
-} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd}
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Schedular_Test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Schedular_Test.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity gray2binary
--- Compiling architecture C3 of gray2binary
+-- Compiling entity Schedular_Test
+-- Compiling architecture test of Schedular_Test
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray_counter.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -132,13 +131,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity gray_counter
 -- Compiling architecture GC3 of gray_counter
 
-} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Schedular_Test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/Schedular_Test.vhd}
+} {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/gray2binary.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Schedular_Test
--- Compiling architecture test of Schedular_Test
+-- Loading package NUMERIC_STD
+-- Compiling entity gray2binary
+-- Compiling architecture C3 of gray2binary
 
 } {} {}} {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/Uni/Semester 5/CSE 312 - Electronic Design Automation/Project/rams.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
